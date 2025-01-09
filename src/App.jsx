@@ -231,7 +231,7 @@ function App() {
                 5.2. Even if a work is something you commissioned, you must credit the artist that drew it.
               </li>
               <li>
-                5.3. While not easily enforceable, content that is shared on this server directly from the original artist does not constitute as permission to share the art elsewhere without permission. Such behavior may warrant a ban. This server is not a public platform and as such, sharing should be done with the artist's appropriate referencing.
+                5.3. While not easily enforceable, content that is shared on this server directly from the original artist does not constitute as permission to share the art elsewhere without permission. Such behavior may warrant a ban. This server is not a public platform and as such, sharing should be done with the artist's appropriate referencing and consent.
               </li>
             </ul>
           </ExpandableSection>
