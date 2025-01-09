@@ -16,6 +16,7 @@ export default defineConfig({
       writeBundle() {
         const buildTime = new Date().toISOString();
         const outputPath = path.resolve(__dirname, 'dist', 'buildTime.json');
+        console.log('Writing build time to:', outputPath); // Debug log
         fs.writeFileSync(outputPath, JSON.stringify({ buildTime }, null, 2));
       },
     },

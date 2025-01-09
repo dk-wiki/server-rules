@@ -6,7 +6,7 @@ const LastBuildTime = () => {
   useEffect(() => {
     const fetchBuildTime = async () => {
       try {
-        const response = await fetch('/buildTime.json');
+        const response = await fetch('/server-rules/buildTime.json');
         const data = await response.json();
         setBuildTime(new Date(data.buildTime));
       } catch (error) {
@@ -18,9 +18,9 @@ const LastBuildTime = () => {
   }, []);
 
   return (
-    <div>
+    <div className="w-full text-right px-10 italic text-gray-600">
       {buildTime ? (
-        <p>Last built on: {buildTime.toLocaleString()}</p>
+        <p>Last update on: {buildTime.toLocaleString()}</p>
       ) : (
         <p>Loading build time...</p>
       )}
