@@ -4,8 +4,12 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { ExpandableSection } from './components/ExpandableComponent';
 import LastBuildTime from './components/LastBuildTime';
+import DiscordJoinButton from "./components/DiscordJoinButton";
 
 function App() {
+  const handleJoinClick = () => {
+    window.location.href = 'https://discord.gg/wrwXDJWbDy'; // Replace with your server invite link
+  };
 
   return (
     <div className="flex flex-col min-h-screen justify-between w-full">
@@ -13,8 +17,13 @@ function App() {
       <main className="flex-grow flex-1">
         <div className="max-w-screen-xl mx-auto px-4 py-8 text-left">
           <p>
-            Masks must fully cover the face and cannot resemble a face. Eyes may be visible in some cases. Ask if you are unsure about any of these rules.
+            You do not need to read these rules, it is merely to reference in cases where there is ambiguity or controversy.
+
+            The definition is that masks must fully cover the face and cannot resemble a face. Eyes may be visible in some cases. Ask if you are unsure about any of these rules.
           </p>
+          <div className="w-full flex justify-center items-center mt-5">
+            <DiscordJoinButton onClick={handleJoinClick} />
+          </div>
           <br />
           <ExpandableSection title="1. All aspects of this server are strictly 18+, including all content and characters depicted.">
             <ul>
