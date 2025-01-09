@@ -78,7 +78,7 @@ function App() {
           <ExpandableSection title="2. Use common sense. Stick to the server's mutual interest and be respectful.">
             <ul>
               <li>
-                2.1. The server's aim is: "DK's is a hub for enthusiasts of masked, helmeted, and faceless male human characters. This server is a welcoming and positive LGBT+ space." That said, the <u>mutual interest</u> is around masked/helmeted characters. For specifics on what is allowed, refer to Rule 3.
+                2.1. The server's aim is: "DK's is a hub for enthusiasts of masked, helmeted, and faceless male human[/humanoid] characters. This server is a welcoming and positive LGBT+ space." That said, the <u>mutual interest</u> is around masked/helmeted characters. For specifics on what is allowed, refer to Rule 3.
               </li>
               <li>
                 2.2. Read the room. While many on this server may be members of other communities, the values and interests of this community are not necessarily shared.
@@ -94,7 +94,7 @@ function App() {
                 <ExpandableSection title="3.1. Focus on helmeted/masked characters." iconSize="w-4 h-4">
                   <ul>
                     <li>
-                      3.1.1. Other types of characters are allowed in SFW contexts, but the central point is helmeted/masked human characters. Non-masked characters are permissible for platonic discussions.
+                      3.1.1. Other types of characters are allowed in SFW contexts, but the central point is helmeted/masked human/humanoid characters. Non-masked characters are permissible for platonic discussions.
                     </li>
                     <li>
                       <ExpandableSection title="3.1.2. This may include robots, aliens, monsters, and so forth." iconSize="w-4 h-4">
