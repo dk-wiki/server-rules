@@ -46,7 +46,7 @@ export const ExpandableSection = ({ title, children, color = "gray", iconSize = 
         </span>
       </div>
       <div
-        className={`overflow-hidden transition-max-height duration-300 ease-in-out ${isOpen ? "max-h-screen" : "max-h-0"}`}
+        className={`overflow-hidden transition-max-height duration-300 ease-in-out ${isOpen ? "max-h-[9999px]" : "max-h-0"}`}
       >
         <div className={`${theme.contentBg} px-2 border-l-8 ${theme.border} text-left`}>
           {children}
