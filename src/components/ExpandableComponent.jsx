@@ -31,10 +31,10 @@ export const ExpandableSection = ({ title, children, color = "gray", iconSize = 
   return (
     <div className="max-w-screen-xl mx-auto py-1">
       <div
-        className={`cursor-pointer ${theme.bg} text-black px-1 py-0 flex justify-between items-center`}
+        className={`cursor-pointer ${theme.bg} text-black py-0 flex justify-between items-center`}
         onClick={() => setIsOpen(!isOpen)}
       >
-        <h2 className="text-md flex-grow text-left mr-1 p-1 font-bold">{title}</h2>
+        <h2 className="text-md flex-grow text-left mr-1 font-bold pl-1">{title}</h2>
         <span
           className={`transform transition-transform duration-300 ${isOpen ? "rotate-180" : "rotate-0"}`}
         >
@@ -46,7 +46,7 @@ export const ExpandableSection = ({ title, children, color = "gray", iconSize = 
         </span>
       </div>
       <div
-        className={`overflow-hidden transition-max-height duration-300 ease-in-out ${isOpen ? "max-h-[9999px]" : "max-h-0"}`}
+        className={`overflow-hidden transition-max-height duration-300 ease-in-out pr-5 ${isOpen ? "max-h-[9999px]" : "max-h-0"}`}
       >
         <div className={`${theme.contentBg} px-2 border-l-8 ${theme.border} text-left`}>
           {children}

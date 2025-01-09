@@ -17,14 +17,30 @@ function App() {
       <main className="flex-grow flex-1">
         <div className="max-w-screen-xl mx-auto px-4 py-8 text-left">
           <p>
-            You do not need to read these rules, it is merely to reference in cases where there is ambiguity or controversy.
-
-            The definition of masked/helmeted characters is that the facial covering must fully cover the face and cannot resemble a face. Eyes may be visible in some cases. Ask if you are unsure about any of these rules.
+            If, for some strange, strange reason you've stumbled upon this site and <i>haven't</i> joined my server, you can do so using the link below.
           </p>
           <div className="w-full flex justify-center items-center mt-5">
             <DiscordJoinButton onClick={handleJoinClick} />
           </div>
+          <h1 className="text-4xl font-bold pt-10">
+            Disclaimer
+          </h1>
+          <hr className="pb-5" />
+          <p>
+            You do not need to read these rules, it is merely to reference in cases where there is ambiguity or controversy.
+          </p>
           <br />
+          <p>
+            The definition of masked/helmeted characters is that the facial covering must fully cover the face and cannot resemble a face. Eyes may be visible in some cases. Ask if you are unsure about any of these rules.
+          </p>
+          <br />
+          <p>
+            Moderator decisions inherently involve some degree of subjective judgment. If you believe a violation has been applied unfairly, you are encouraged to file an appeal by reaching out to a moderator via direct message. As rules may evolve over time, we welcome civilized discussions regarding perceived discrepancies. Appropriate adjustments will be considered to ensure fairness and clarity.
+          </p>
+          <h1 className="text-4xl font-bold pt-10">
+            Official Server Rules
+          </h1>
+          <hr className="pb-5" />
           <ExpandableSection title="1. All aspects of this server are strictly 18+, including all content and characters depicted.">
             <ul>
               <li>
@@ -78,7 +94,7 @@ function App() {
                 <ExpandableSection title="3.1. Focus on helmeted/masked characters." iconSize="w-4 h-4">
                   <ul>
                     <li>
-                      3.1.1. Other types of characters are allowed in SFW contexts, but the central point is helmeted/masked human characters.
+                      3.1.1. Other types of characters are allowed in SFW contexts, but the central point is helmeted/masked human characters. Non-masked characters are permissible for platonic discussions.
                     </li>
                     <li>
                       <ExpandableSection title="3.1.2. This may include robots, aliens, monsters, and so forth." iconSize="w-4 h-4">
@@ -120,10 +136,13 @@ function App() {
                 <ExpandableSection title="3.3. Suggestive content must only focus on depicting male characters." iconSize="w-4 h-4">
                   <ul>
                     <li>
-                      3.3.1. It is not necessary to depict all characters as male, but this server revolves around gay male content. Non-focal characters can be depicted as non-male; however, they must not be suggestive.
+                      3.3.1. Suggestive means sexual imagery, poses or interactions; nudity or partial nudity; provocative clothing; or exaggerated sexual body features.
                     </li>
                     <li>
-                      3.3.2. This server is open to all individuals of all forms of expression; however, content is as outlined above.
+                      3.3.2. It is not necessary to depict all characters as male, but this server revolves around gay male content. Non-focal characters can be depicted as non-male; however, they must not be suggestive.
+                    </li>
+                    <li>
+                      3.3.3. This server is open to all individuals of all forms of expression; however, content is as outlined above.
                     </li>
                   </ul>
                 </ExpandableSection>
@@ -181,7 +200,7 @@ function App() {
           <ExpandableSection title="4. You, and you alone, are responsible for what you post. This includes any personal information you willingly divulge.">
             <ul>
               <li>
-                4.1. Your profile is public to this server. If your profile is provocative or considered harmful, you will be removed from the server.
+                4.1. Your profile is considered public to this server. If your profile is provocative or considered harmful, you will be removed from the server.
               </li>
               <li>
                 4.2. Even if someone asked you to do something that breaks the rules, you are still liable for your actions.
@@ -211,9 +230,15 @@ function App() {
               <li>
                 5.2. Even if a work is something you commissioned, you must credit the artist that drew it.
               </li>
+              <li>
+                5.3. While not easily enforceable, content that is shared on this server directly from the original artist does not constitute as permission to share the art elsewhere without permission. Such behavior may warrant a ban. This server is not a public platform and as such, sharing should be done with the artist's appropriate referencing.
+              </li>
             </ul>
           </ExpandableSection>
-          <br />
+          <h1 className="text-4xl font-bold pt-10">
+            Specific Content References
+          </h1>
+          <hr className="pb-5" />
           <ExpandableSection title="6. List of permitted characters and features" color='green'>
             <p>
               This contains an incomplete list of permissible characters and features. If the content is not obviously permissible, ask on the server. This list will be updated regularly to give users a better understanding of what content is to be expected on this server.
@@ -254,7 +279,7 @@ function App() {
                 <ExpandableSection title="7.1. Edge case features that have been disallowed" color='red'>
                   <ul>
                     <li>
-                      7.1.1. Animal masks
+                      7.1.1. Animal masks (Note that this does <u>not</u> include masks with subtle animal features or hybrid masks)
                     </li>
                     <li>
                       7.1.2. Face-shaped helmets
@@ -282,8 +307,14 @@ function App() {
               </li>
             </ul>
           </ExpandableSection>
+          <h1 className="text-4xl font-bold pt-10">
+            Final Notes
+          </h1>
+          <hr className="pb-5" />
+          <p>
+            If there is anything you notice about these rules that makes them incomplete or unfair, you are welcome to raise any concerns on the server. Additionally, contributions to the lists in Rules 6 and 7 would be appreciated
+          </p>
         </div>
-        <LastBuildTime />
       </main>
       <Footer />
     </div>
