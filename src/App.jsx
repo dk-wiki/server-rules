@@ -19,7 +19,7 @@ function App() {
           <p>
             You do not need to read these rules, it is merely to reference in cases where there is ambiguity or controversy.
 
-            The definition is that masks must fully cover the face and cannot resemble a face. Eyes may be visible in some cases. Ask if you are unsure about any of these rules.
+            The definition of masked/helmeted characters is that the facial covering must fully cover the face and cannot resemble a face. Eyes may be visible in some cases. Ask if you are unsure about any of these rules.
           </p>
           <div className="w-full flex justify-center items-center mt-5">
             <DiscordJoinButton onClick={handleJoinClick} />
