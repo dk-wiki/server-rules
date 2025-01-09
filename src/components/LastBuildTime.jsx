@@ -18,7 +18,7 @@ const LastBuildTime = () => {
   }, []);
 
   return (
-    <div className="w-full text-right px-10 italic text-gray-600">
+    <div className="w-full text-right px-10 italic text-gray-600 pb-10">
       {buildTime ? (
         <p>Last update on: {buildTime.toLocaleString()}</p>
       ) : (
