@@ -26,7 +26,7 @@ const colors = {
 
 export const ExpandableSection = ({ title, children, color = "gray", iconSize = "w-6 h-6" }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const theme = colors[color] || colors.blue; // Fallback to "blue" if color not found
+  const theme = colors[color] || colors.blue;
 
   return (
     <div className="max-w-screen-xl mx-auto py-1">

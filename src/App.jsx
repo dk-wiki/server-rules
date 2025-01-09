@@ -8,7 +8,7 @@ import DiscordJoinButton from "./components/DiscordJoinButton";
 
 function App() {
   const handleJoinClick = () => {
-    window.location.href = 'https://discord.gg/wrwXDJWbDy'; // Replace with your server invite link
+    window.location.href = 'https://discord.gg/wrwXDJWbDy';
   };
 
   return (
@@ -86,6 +86,30 @@ function App() {
               <li>
                 2.3. While you use this server, you are expected to respect other members and the rules.
               </li>
+              <li>
+                <ExpandableSection title="2.4 Advertisements are generally not permitted." iconSize="w-4 h-4">
+                  <ul>
+                    <li>
+                      2.4.1. Advertising an individual's content page for reference is not considered advertising, unless it is for purely promotional purposes.
+                    </li>
+                    <li>
+                      2.4.2. Posts or messages that are primarily intended to solicit business, promote unrelated content, gaining followers/attention, or redirect members to external platforms will be removed.
+                    </li>
+                    <li>
+                      2.4.3. Members are encouraged to engage with and support one another's creative work constructively.
+                    </li>
+                    <li>
+                      2.4.4. Advertisement positions may be granted under extremely strict conditions. Reach out to a moderator to ask for more information if you are interested.
+                    </li>
+                  </ul>
+                </ExpandableSection>
+              </li>
+              <li>
+                2.4. Any form of discrimination, breaches of privacy, fake/misleading content, malicious content will not be tolerated.
+              </li>
+              <li>
+              2.5. While we care about the well-being of our community members, this server is not equipped to provide support for crisis situations or personal emergencies. If you're experiencing distress or need help, we strongly encourage reaching out to trusted friends, family, or professional resources that can provide the care and support you deserve.
+              </li>
             </ul>
           </ExpandableSection>
           <ExpandableSection title="3. Content Guidelines">
@@ -142,7 +166,7 @@ function App() {
                       3.3.2. It is not necessary to depict all characters as male, but this server revolves around gay male content. Non-focal characters can be depicted as non-male; however, they must not be suggestive.
                     </li>
                     <li>
-                      3.3.3. This server is open to all individuals of all forms of expression; however, content is as outlined above.
+                      3.3.3. This server is open to all individuals of all forms of expression; however, content is subject to all outlined criteria.
                     </li>
                   </ul>
                 </ExpandableSection>
@@ -154,10 +178,22 @@ function App() {
                       3.4.1. <u>This server is not for furry content in any form!</u>
                     </li>
                     <li>
-                      3.4.2. Animal-themed content includes animal heads/masks, genitalia, or themes is strictly forbidden.
+                      3.4.2. Animal-themed content including animal heads/masks, genitalia, or themes is strictly forbidden.
                     </li>
                     <li>
-                      3.4.3. This community does not align/agree with furry community rules, so do not assume it is permissible to port rules between communities.
+                      <ExpandableSection title="3.4.3. This community does not align with furry community rules and values, so do not assume it is permissible to hold the same standards between communities." iconSize="w-4 h-4">
+                        <ul>
+                          <li>
+                            3.4.3.1. While a high percentage of members identify as furry, you are not to assume any individual member is comfortable with furry content or forms of expression.
+                          </li>
+                          <li>
+                            3.4.3.2. There is no exclusion intended for those who identify as furry, however, in the interest of preserving the server values and identity, expressions are expected to remain outside of the contexts of the server.
+                          </li>
+                          <li>
+                            3.4.3.3. Links to furry sites may be permitted in the instance that the content being shared does not breach the requirements outlined.
+                          </li>
+                        </ul>
+                      </ExpandableSection>
                     </li>
                   </ul>
                 </ExpandableSection>

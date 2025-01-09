@@ -6,32 +6,30 @@ body {
   margin: 0;
 }
 
-/* Style for unordered list */
 ul {
   list-style-type: disc;
   padding-left: 1.5rem;
 }
 
-/* Style for list items */
 li {
-  font-size: 0.875rem; /* Tailwind equivalent: text-sm */
-  color: #4b5563; /* Tailwind equivalent: text-gray-700 */
+  font-size: 0.875rem;
+  color: #4b5563;
   transition: color 0.2s ease;
 }
 
 li:hover {
-  color: #1f2937; /* Tailwind equivalent: text-gray-900 */
+  color: #1f2937;
   cursor: pointer;
 }
 
 code {
   display: inline-block;
-  background-color: #f5f2f0; /* Light gray background */
-  color: #d6336c; /* Vivid pinkish-red text */
-  font-family: 'Fira Code', 'Courier New', Courier, monospace; /* Monospaced font */
-  font-size: 0.875rem; /* Tailwind equivalent: text-sm */
-  padding: 0rem 0.4rem; /* Padding around the code */
-  border-radius: 0.25rem; /* Rounded corners */
-  border: 1px solid #e0dcdc; /* Subtle border */
-  white-space: nowrap; /* Prevent wrapping */
+  background-color: #f5f2f0;
+  color: #d6336c;
+  font-family: 'Fira Code', 'Courier New', Courier, monospace;
+  font-size: 0.875rem;
+  padding: 0rem 0.4rem;
+  border-radius: 0.25rem;
+  border: 1px solid #e0dcdc;
+  white-space: nowrap;
 }

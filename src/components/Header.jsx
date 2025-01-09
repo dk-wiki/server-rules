@@ -6,7 +6,7 @@ export const Header = () => (
       <div className="flex flex-col md:flex-row md:justify-between items-center text-center md:text-left relative">
         <div className="flex items-center mb-4 md:mb-0">
           <img
-            src="icon.webp" // Replace with your avatar image path
+            src="icon.webp"
             alt="Avatar"
             className="w-12 h-12 rounded-full mr-3"
           />
