@@ -8,12 +8,12 @@ const colors = {
     contentBg: "bg-blue-100",
   },
   red: {
-    bg: "bg-red-300",
+    bg: "bg-red-100",
     border: "border-red-300",
     contentBg: "bg-red-100",
   },
   green: {
-    bg: "bg-green-300",
+    bg: "bg-green-100",
     border: "border-green-300",
     contentBg: "bg-green-100",
   },
