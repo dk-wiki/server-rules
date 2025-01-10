@@ -301,6 +301,9 @@ function App() {
                     <li>
                       6.2.3. Roadhog, Overwatch
                     </li>
+                    <li>
+                      6.2.4. Venom, Marvel
+                    </li>
                   </ul>
                 </ExpandableSection>
               </li>
