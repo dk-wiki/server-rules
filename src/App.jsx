@@ -16,12 +16,12 @@ function App() {
       <Header />
       <main className="flex-grow flex-1">
         <div className="max-w-screen-xl mx-auto px-4 py-8 text-left">
-          <p>
+{/*           <p>
             If, for some strange, strange reason you've stumbled upon this site and <i>haven't</i> joined my server, you can do so using the link below.
           </p>
           <div className="w-full flex justify-center items-center mt-5">
             <DiscordJoinButton onClick={handleJoinClick} />
-          </div>
+          </div> */}
           <h1 className="text-4xl font-bold pt-10">
             Disclaimer
           </h1>
