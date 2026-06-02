@@ -178,7 +178,7 @@ function App() {
                       3.4.1. <u>This server is not for furry content in any form!</u>
                     </li>
                     <li>
-                      3.4.2. Animal-themed content including animal heads/masks, genitalia, or themes is strictly forbidden.
+                      3.4.2. Animal-themed content including animal heads/masks, genitalia, or themes is strictly forbidden. Some (non-exhaustive) examples include furry characters, animal themed masks, werewolves, beings with animal appendages (arms, legs, tails, etc), and displaying behaviour parallel to feral animals.
                     </li>
                     <li>
                       <ExpandableSection title="3.4.3. This community does not align with furry community rules and values, so do not assume it is permissible to hold the same standards between communities." iconSize="w-4 h-4">
@@ -191,6 +191,9 @@ function App() {
                           </li>
                           <li>
                             3.4.3.3. Links to furry sites may be permitted in the instance that the content being shared does not breach the requirements outlined.
+                          </li>
+                          <li>
+                            3.4.4. The rules are intentionally vague about what constitutes as furry content, and this is because it is done on a case-by-case basis. If you are unsure, ask before posting.
                           </li>
                         </ul>
                       </ExpandableSection>
@@ -211,7 +214,7 @@ function App() {
                 </ExpandableSection>
               </li>
               <li>
-                <ExpandableSection title="3.6. Fetishes belong in designated channels only." iconSize="w-4 h-4">
+                <ExpandableSection title="3.6. All content posted belong in designated channels only." iconSize="w-4 h-4">
                   <p>
                     This defines the fetishes that are allowed in the server. If it is not included on this list, it is <u>not</u> to be posted.
                   </p>
@@ -220,10 +223,10 @@ function App() {
                       3.6.1. <u>Vore</u> belongs strictly in the <code>#vore</code> channel, or general discussions with vore remain in <code>#general-vore</code>.
                     </li>
                     <li>
-                      3.6.2. <u>NSFW</u> content is general but on this server refers to vanilla/realistic sexual content, hyper, and muscles.
+                      3.6.2. <u>NSFW</u> content is general but on this server refers to vanilla/realistic sexual content, hyper, and muscles. Gym pictures should also go here if they are shirtless.
                     </li>
                     <li>
-                      3.6.3. <u>SFW</u> stands for "Safe For Work." If you wouldn't see a normal person seeing this in public, then put it in <code>#nsfw-media</code>.
+                      3.6.3. <u>SFW</u> stands for "Safe For Work." If you wouldn't see a normal person seeing this in public or in the workspace, then put it in <code>#nsfw-media</code>. IRL pictures can go here, but not if they are suggestive, shirtless, or generally trying to evoke a sexual response (even slightly).
                     </li>
                     <li>
                       3.6.4. <u>Belly</u> content refers to belly kinks including fat, inflation, stuffing, and weight gain. Excessive fat sizes (like blob content) belong in this channel.
