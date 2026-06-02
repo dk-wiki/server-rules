@@ -307,6 +307,9 @@ function App() {
                     <li>
                       6.2.5. Ben 10 aliens (including Four Arms, Heatblast, Diamondhead, among some others), Ben 10
                     </li>
+                    <li>
+                      6.2.6. Hank J. Wimbletone (certain designs)
+                    </li>
                   </ul>
                 </ExpandableSection>
               </li>
@@ -345,6 +348,9 @@ function App() {
                       </li>
                       <li>
                         7.2.3. Banyue, ZZZ
+                      </li>
+                      <li>
+                        7.2.4. Blight DBD
                       </li>
                     </ul>
                   </ExpandableSection>
