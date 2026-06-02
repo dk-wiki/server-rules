@@ -305,10 +305,10 @@ function App() {
                       6.2.4. Venom, Marvel
                     </li>
                     <li>
-                      6.2.5. Ben 10 aliens (including Four Arms, Heatblast, Diamondhead, among some others), Ben 10
+                      6.2.5. Ben 10 aliens (including Four Arms, Heatblast, Diamondhead, among some others), from Ben 10 (definitely NOT Ben 10 himself)
                     </li>
                     <li>
-                      6.2.6. Hank J. Wimbletone (certain designs)
+                      6.2.6. Hank J. Wimbleton (certain designs)
                     </li>
                   </ul>
                 </ExpandableSection>
