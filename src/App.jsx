@@ -304,6 +304,9 @@ function App() {
                     <li>
                       6.2.4. Venom, Marvel
                     </li>
+                    <li>
+                      6.2.5. Ben 10 aliens (including Four Arms, Heatblast, Diamondhead, among some others), Ben 10
+                    </li>
                   </ul>
                 </ExpandableSection>
               </li>
@@ -339,6 +342,9 @@ function App() {
                       </li>
                       <li>
                         7.2.2. Zorro
+                      </li>
+                      <li>
+                        7.2.3. Banyue, ZZZ
                       </li>
                     </ul>
                   </ExpandableSection>
